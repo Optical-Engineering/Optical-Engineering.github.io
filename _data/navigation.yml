@@ -1,0 +1,22 @@
+# Site navigation links
+
+- title: Introduction
+  url: /introduction/
+  excerpt: "An introduction to me."
+  # image: 400x250.gif
+  image: teaser_placeholder.png
+
+- title: News
+  url: /news/
+  excerpt: "Examples of long form posts."
+  image: teaser_placeholder.png
+
+- title: Team
+  url: /team/
+  excerpt: "Team members and their roles."
+  image: teaser_placeholder.png
+
+- title: Research
+  url: /research/
+  excerpt: "An overview about scitific works."
+  image: teaser_placeholder.png
