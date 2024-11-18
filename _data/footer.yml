@@ -1,0 +1,16 @@
+# Footer navigation links
+
+- title: Home
+  url: /
+
+- title: Introduction
+  url: /introduction/
+
+- title: News
+  url: /news/
+
+- title: Team
+  url: /team/
+
+- title: Research
+  url: /research/
