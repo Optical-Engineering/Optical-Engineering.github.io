@@ -1,0 +1,27 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>{{ site.description }}</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.title == '实验室首页' %} active{% endif %}" href="{{ '/' | absolute_url }}">实验室首页</a>
+    <a class="sidebar-nav-item{% if page.title == '导师介绍' %} active{% endif %}" href="{{ '/mentor' | absolute_url }}">导师介绍</a>
+    <a class="sidebar-nav-item{% if page.title == '实验室成员' %} active{% endif %}" href="{{ '/members' | absolute_url }}">实验室成员</a>
+    <a class="sidebar-nav-item{% if page.title == '研究方向' %} active{% endif %}" href="{{ '/research' | absolute_url }}">研究方向</a>
+    <a class="sidebar-nav-item{% if page.title == '研究成果' %} active{% endif %}" href="{{ '/achievements' | absolute_url }}">研究成果</a>
+    <a class="sidebar-nav-item{% if page.title == '招生招聘' %} active{% endif %}" href="{{ '/recruitment' | absolute_url }}">招生招聘</a>
+    <a class="sidebar-nav-item{% if page.title == '实验室动向' %} active{% endif %}" href="{{ '/news' | absolute_url }}">实验室动向</a>
+    <a class="sidebar-nav-item{% if page.title == '联系我们' %} active{% endif %}" href="{{ '/contact' | absolute_url }}">联系我们</a>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+    </p>
+  </div>
+</div>
